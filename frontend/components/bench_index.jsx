@@ -10,6 +10,7 @@ class BenchIndex extends React.Component {
     }
 
     render() {
+        debugger
         const benchArray = this.props.benches.map( (bench, idx) => {
             return (
                 <li key={idx}>{bench.description}</li>
