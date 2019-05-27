@@ -1,4 +1,5 @@
 import { RECEIVE_BENCHES } from '../actions/bench_actions';
+import { merge } from 'lodash';
 
 const benchesReducer = (state = {}, action) => {
     const oldState = Object.freeze(state);
